@@ -1,0 +1,90 @@
+/*Controls each pages background color and the dimensions of the table used to layout the site*/
+body { background-color: rgb(164, 255, 146) }
+table.template { width: 100% }
+
+/*Styles the header which is the name of the shop*/
+.header {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+.underline { background-color: black; }
+
+/*Styles the links at the bottom of the page (all of which just link to my github)*/
+.footer a:link, 
+.footer a:visited, 
+.footer a:hover, 
+.footer a:active {
+    color: rgb(255, 0, 242);
+}
+
+/*Styles the navigation menu*/
+.nav {
+    width: 15%;
+    height: 75vh;
+    background-color: #01fbff;
+    vertical-align: top;
+}
+.navSpacer {
+    background-color: black; 
+    width: 1px; 
+}
+
+/*Styles navigation links*/
+.nav a:link, 
+.nav a:visited {
+    background-color: #01fbff;
+    color: rgb(0, 0, 0);
+    width: 90%;
+    text-align: left;
+    font-size: larger;
+    padding-left: 10%;
+    padding-bottom: 4px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav a:hover, 
+.nav a:active {
+    background-color: #00944a;
+    color: ghostwhite;
+    width: 90%;
+    text-align: left;
+    font-size: larger;
+    padding-left: 10%;
+    padding-bottom: 4px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*Styles the "content" section of each page (ie. the area that isn't the header, footer or navigation menu)*/
+.content {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+/*Only used for the news section in the home page*/
+.headlines {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif
+}
+.story {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+tbody:hover > tr > td.story {
+    -webkit-line-clamp: unset;
+}
+
+/*Only used for the about us page*/
+#blurb {
+    padding-left: 20px;
+    font-size: larger;
+}
+
+/*Only used for the list in the contact page*/
+ul { list-style-type: none }
+li { margin: 10px }
