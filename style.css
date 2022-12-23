@@ -69,6 +69,7 @@ table.template { width: 100% }
     font-family: 'Times New Roman', Times, serif
 }
 .story {
+    font-size: medium;
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
